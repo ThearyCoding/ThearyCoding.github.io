@@ -55557,7 +55557,7 @@ if(p==null)p=""
 return new A.em(s,r,q,p,o.h(0,"adminId"),A.vN(t.y4.a(o.h(0,"timestamp")).gpI()))},
 $S:366}
 A.S9.prototype={
-E(a){return new A.CS(B.Ld,new A.akt(),"E-Learning Admin",A.HG(null,B.aJ,null),!1,new A.On(new A.aku()),null)}}
+E(a){return new A.CS(B.Ld,new A.akt(),"E Learning Admin",A.HG(null,B.aJ,null),!1,new A.On(new A.aku()),null)}}
 A.akt.prototype={
 $2(a,b){return new A.FA(b,A.b([B.Ew,B.Ex,B.Ey,B.Ez],t.At),null,null,!1,!1,null)},
 $S:60}

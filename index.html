@@ -34,7 +34,7 @@
 
   <script>
     // The value below is injected by flutter build, do not touch.
-    const serviceWorkerVersion = "4253530964";
+    const serviceWorkerVersion = "3786512810";
   </script>
   <!-- This script adds the flutter initialization JS code -->
   <script src="flutter.js" defer></script>
@@ -54,6 +54,25 @@
         }
       });
     });
+  </script>
+  <script type="module">
+    // Import the functions you need from the SDKs you need
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/10.12.2/firebase-app.js";
+    // TODO: Add SDKs for Firebase products that you want to use
+    // https://firebase.google.com/docs/web/setup#available-libraries
+  
+    // Your web app's Firebase configuration
+    const firebaseConfig = {
+      apiKey: "AIzaSyAITTuZb2cXoZdtLuGzPruXFHt2S91oNoc",
+      authDomain: "elearning-app-a6e15.firebaseapp.com",
+      projectId: "elearning-app-a6e15",
+      storageBucket: "elearning-app-a6e15.appspot.com",
+      messagingSenderId: "958733498686",
+      appId: "1:958733498686:web:df11cfb3b4cd8c64f0d46f"
+    };
+  
+    // Initialize Firebase
+    const app = initializeApp(firebaseConfig);
   </script>
 </body>
 </html>
